@@ -1,0 +1,109 @@
+/*
+* TsSlider jQuery Plugin
+* 
+* Copyright 2012 DesignShock
+*
+*
+*
+*
+
+
+
+/* ARROWS SECTION 
+ -------------------------- */
+
+.ts-carousel-control
+{
+	position: absolute;
+ 	top: 40%;
+ 	background: rgba(200, 200, 200, .7);
+}
+
+.ts-carousel-control:hover
+{
+	text-decoration: none;
+}
+
+
+/* ARROW 1
+ ===================  */
+
+.ts-arrow-1
+{	
+ 	width: 6%;
+ 	height: 11%;
+	background: rgb(200, 200, 200);
+	opacity: .7;
+ 	text-align: center;
+ 	font-size: 46px;
+ 	color: #57685C;
+ 	text-shadow: 0 1px 1px #f8f8f8;
+ 	-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+ 	   -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+ 			box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+}
+
+.ts-arrow-1:hover
+{
+	opacity: .95;
+	text-decoration: none;
+}
+
+.ts-arrow-1-left
+{
+ 	left: 0%;
+}
+
+.ts-arrow-1-right
+{
+ 	right: 0%;
+}
+
+
+div[class*="ts-border-"]{
+	padding: 2%;
+	margin: 0 auto 5%;
+	width:90%;
+}
+a[class*="ts-arrow-"]{
+	z-index:105;
+}
+
+/* Carousel Items
+ * ------------------------------- */
+
+.carousel-inner
+{
+}
+
+.item img
+{
+	width: 100%;
+/*	height: 95%;*/
+	margin:0;
+}	
+
+/* Carousel Custom - the new class for the carousel
+ * --------------------------------- */
+
+.carousel-custom
+{
+	position: absolute;
+	top: 40%;
+}
+
+
+/* FONT RELATED - FONT INSIDE ARROWS
+ ---------------------------- */
+
+p.arrow-inside
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	line-height: inherit;
+
+}
+
